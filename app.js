@@ -9,4 +9,4 @@ const letters = document.querySelectorAll('.letter')
 setInterval(function(){for(let letter of letters){
     letter.style.color = randomRGB();
 
-}}, 500)
+}}, 2000)
